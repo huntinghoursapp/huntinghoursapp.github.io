@@ -1,0 +1,12 @@
+{
+  "applinks": {
+    "details": [
+      {
+        "appIDs": ["Y6J9JAJJA5.com.huntinghoursapp.huntinghours"],
+        "components": [
+          { "/": "/s.html", "comment": "Hunting Hours shared-dates links" }
+        ]
+      }
+    ]
+  }
+}
