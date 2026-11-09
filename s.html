@@ -44,7 +44,7 @@
 </head>
 <body>
 
-<h1 id="heading">Hunting dates have been shared with you</h1>
+<h1 id="heading">Shooting dates have been shared with you</h1>
 <p id="subtext">Tap below to open them in Shooting Hours.</p>
 
 <a id="openButton" class="open-button" href="#">Open in Shooting Hours</a>
@@ -81,7 +81,7 @@
       var sameName = firstName && days.every(function (d) { return d.categoryName === firstName; });
       subtext.textContent = sameName
         ? firstName + " — " + count + " " + dateWord + ". Tap below to add them."
-        : count + " hunting " + dateWord + ". Tap below to add them.";
+        : count + " shooting " + dateWord + ". Tap below to add them.";
     } catch (e) {
       // Keep the generic subtext.
     }
